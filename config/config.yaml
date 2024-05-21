@@ -1,4 +1,4 @@
-artifacts_root: artifacts
+gartifacts_root: artifacts
 
 
 data_ingestion:
