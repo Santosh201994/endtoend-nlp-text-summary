@@ -2,10 +2,10 @@ Metadata-Version: 2.1
 Name: textSummarizer
 Version: 0.0.0
 Summary: A small python package for NLP app
-Home-page: https://github.com/entbappy/Text-Summarizer-Project
-Author: entbappy
-Author-email: entbappy73@gmail.com
-Project-URL: Bug Tracker, https://github.com/entbappy/Text-Summarizer-Project/issues
+Home-page: https://github.com/Santosh201994/endtoend-nlp-text-summary
+Author: Santosh201994
+Author-email: santosh201994@gmail.com
+Project-URL: Bug Tracker, https://github.com/Santosh201994/endtoend-nlp-text-summary/issues
 License-File: LICENSE
 
 # End to end Text-Summarizer-Project
@@ -28,7 +28,7 @@ License-File: LICENSE
 Clone the repository
 
 ```bash
-https://github.com/entbappy/End-to-end-Text-Summarization
+https://github.com/Santosh201994/endtoend-nlp-text-summary.git
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -59,9 +59,8 @@ open up you local host and port
 
 
 ```bash
-Author: Krish Naik
-Data Scientist
-Email: krishnaik06@gmail.com
+Author: santosh
+Email: santosh201994@gmail.com
 
 ```
 
