@@ -94,7 +94,7 @@ Email: santosh201994@gmail.com
 	
 ## 4. Create EC2 machine (Ubuntu) 
 
-## 5. Open EC2 and Install docker in EC2 Machine:
+## 5. Open EC2 and Install docker in EC2 Machine:.
 	
 	
 	#optinal
