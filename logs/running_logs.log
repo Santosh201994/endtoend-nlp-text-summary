@@ -106,3 +106,63 @@ x==========x]
 [2024-05-19 15:38:33,069: INFO: common: yaml file: params.yaml loaded successfully]
 [2024-05-19 15:38:33,069: INFO: common: created directory at: artifacts]
 [2024-05-19 15:38:33,069: INFO: common: created directory at: artifacts/model_trainer]
+[2024-05-21 14:55:39,494: INFO: config: PyTorch version 2.3.0 available.]
+[2024-05-21 14:55:45,431: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-21 14:55:45,434: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2024-05-21 14:55:45,437: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-21 14:55:45,437: ERROR: main: "'ConfigBox' object has no attribute 'artifacts_root'"]
+Traceback (most recent call last):
+  File "box/box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'artifacts_root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 536, in box.box.Box.__getattr__
+  File "box/box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'artifacts_root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'artifacts_root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/config_box.py", line 28, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'artifacts_root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 503, in box.box.Box.__getitem__
+KeyError: 'artifacts_root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box/box.py", line 536, in box.box.Box.__getattr__
+  File "box/box.py", line 524, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'artifacts_root'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box/box.py", line 538, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'artifacts_root'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspaces/endtoend-nlp-text-summary/main.py", line 13, in <module>
+    data_ingestion.main()
+  File "/workspaces/endtoend-nlp-text-summary/src/textSummarizer/pipeline/stage_01_data_ingestion.py", line 11, in main
+    config = ConfigurationManager()
+  File "/workspaces/endtoend-nlp-text-summary/src/textSummarizer/config/configuration.py", line 19, in __init__
+    create_directories([self.config.artifacts_root])
+  File "box/config_box.py", line 30, in box.config_box.ConfigBox.__getattr__
+  File "box/box.py", line 552, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'artifacts_root'"
